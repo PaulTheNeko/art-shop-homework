@@ -1,6 +1,6 @@
 <script>
-	import AppHeader from '../Header.svelte';
-	import ShopPrev from '../ShopPrev.svelte';
+	import AppHeader from '$lib/Header.svelte';
+	import ShopPrev from '$lib/ShopPrev.svelte';
 </script>
 
 <AppHeader />
