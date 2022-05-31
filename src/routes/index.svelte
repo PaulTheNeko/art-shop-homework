@@ -1,3 +1,11 @@
-<header><h1>Sklep z obrazami</h1></header>
+<script>
+	import AppHeader from '../Header.svelte';
+	import ShopPrev from '../ShopPrev.svelte';
+</script>
 
-<main />
+<AppHeader />
+
+<main>
+	<h1>Witaj na stronie</h1>
+	<ShopPrev src="/favicon.png" />
+</main>
