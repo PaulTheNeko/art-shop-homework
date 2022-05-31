@@ -1,38 +1,9 @@
-# create-svelte
+# Just some homework
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+We didn't have a specific kind of site specified for our assignment, so I'm making this.
 
-## Creating a project
+I'll (try to, but probably forget) to use this file to document the reasoning of some of the decisions I'll make in this project for future reference. I'm doing this both because it could be useful, and with the hope that if I sound smart enough in the readme I'll get a good grade. As a bonus I may get some much needed writing practice.
 
-If you're seeing this, you've probably already done this step. Congrats!
+I'm starting using the Svelte framework, as I've heard good things about it. In particular, it seems to compile your JS to surgically (and _efficiently_) modify the DOM, rather than providing runtime in-browser library to detect when modifications should be made.
 
-```bash
-# create a new project in the current directory
-npm init svelte
-
-# create a new project in my-app
-npm init svelte my-app
-```
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+While I didn't research other frameworks, I want to mention that React would have been my second choice. I've heard of it being functional, which is a paradigm I really respect.
