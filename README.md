@@ -11,6 +11,6 @@ In particular, it seems to compile your JS to surgically (and _efficiently_) mod
 
 While I didn't research other frameworks, I want to mention that React would have been my second choice.I've heard of it being functional, which is a paradigm I really respect.
 
-I'm starting using the Svelte framework, as I've heard good things about it. In particular, it seems to compile your JS to surgically (and _efficiently_) modify the DOM, rather than providing runtime in-browser library to detect when modifications should be made.
+I am also using Sveltekit, as that seems to be the recommended way (or at least a good way) to make a Svelte project.
 
 While I didn't research other frameworks, I want to mention that React would have been my second choice. I've heard of it being functional, which is a paradigm I really respect.
