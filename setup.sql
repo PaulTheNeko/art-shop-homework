@@ -37,6 +37,7 @@ create table vendor (
   id int not null auto_increment,
   `login` varchar(20) not null,
   email varchar(255) not null,
+  pass_hash char(60) not null, -- bcrypt bcrypt bcrypt
   artist int,
   PRIMARY KEY (id)
 );
