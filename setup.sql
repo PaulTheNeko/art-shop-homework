@@ -2,7 +2,7 @@ create database `art-shop`;
 
 use `art-shop`;
 -- Yes I'm going to unapolegetically mix languages
--- TODO: #2 don't mix languages
+/* TODO: #2 don't mix languages */
 
 
 create table Farby (
@@ -58,7 +58,7 @@ create table Obrazy (
 
 create table Zakup (
   id int not null,
-  -- TODO: #1 add some addresses and such
+  /* TODO: #1 add some addresses and such */
   PRIMARY KEY (id),
   CONSTRAINT fk_Zakup_Obrazy
   FOREIGN KEY (id) references Obrazy(id)
