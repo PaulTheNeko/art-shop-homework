@@ -51,7 +51,7 @@ create table paintings (
   paint_brand int FOREIGN KEY REFERENCES brands(id),
   artist int FOREIGN KEY REFERENCES artist(id),
   vendor int -- don't show to buyers
-    NOT NULL -- _SOMEONE_ has to put the paintings up
+    NOT NULL -- _SOMEONE_ has to put the paintings on sale
     FOREIGN KEY REFERENCES vendor(id),
   
   height int,
