@@ -1,16 +1,7 @@
-import mysql = require("mysql");
-import express = require("express");
+import { Request, Response } from "express";
 
-var app = express();
+function index(req: Request, res: Response) {
 
-const db = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "",
-  database: "art-shop",
-});
+}
 
-db.connect((err) => {
-  if(err) throw err;
-  console.log("Connected to database");
-})
+export = index;
