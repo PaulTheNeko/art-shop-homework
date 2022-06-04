@@ -2,7 +2,6 @@ create database `art-shop`;
 
 use `art-shop`;
 -- Yes I'm going to unapolegetically mix languages
-/* TODO: #2 don't mix languages */
 
 -- Some names are quoted to prevent syntax highlighting
 
