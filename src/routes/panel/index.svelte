@@ -7,7 +7,7 @@
 <main>
 	<p>Witaj w sekretnym panelu.</p>
 	<div class="options">
-		<a href="panel/add">Dodaj obraz</a>
+		<a href="/panel/add">Dodaj obraz</a>
 	</div>
 </main>
 

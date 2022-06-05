@@ -15,16 +15,11 @@
 <AppHeader color="#310f87" />
 
 <main>
-	<form>
+	<form action="/back/add" method="post">
 		<input type="image" src={avatar} alt="" /><br />
-		<input type="file" name="" id="" bind:files on:change /><br />
-		tytul <input type="text" name="" id="" /><br />
-		opis <br /><textarea name="" id="" cols="30" rows="10" /><br />
-
-		szerokość <input type="number" name="" id="" /><br />
-		wysokość <input type="number" name="" id="" /><br />
-		głębokość <input type="number" name="" id="" /><br />
-		<input type="password" name="" id="" />
+		<input type="file" name="file" id="file" bind:files on:change /><br />
+		tytul <input type="text" name="title" id="title" /><br />
+		opis <br /><textarea name="desc" id="desc" cols="30" rows="10" /><br />
 	</form>
 </main>
 
