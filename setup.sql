@@ -70,3 +70,22 @@ create table purchases (
   FOREIGN KEY (id) references paintings(id)
   -- 1 - 1
 );
+
+create table tags (
+  id int not null auto_increment,
+  `name` varchar(30) not null,
+  PRIMARY KEY (id),
+  UNIQUE (`name`)
+);
+
+create table painting_tags (
+  painting int not null,
+  tag int not null,
+  PRIMARY KEY (painting, tag),
+  FOREIGN KEY (painting) references paintings(id),
+  FOREIGN KEY (tag) references tags(id)
+)
+
+insert into tags(name) values ('portret');
+insert into tags(name) values ('krajobraz');
+insert into tags(name) values ('architektura');
