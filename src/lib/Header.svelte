@@ -1,15 +1,18 @@
-<div class="header sans-serif">
+<script>
+	export let color = '#77dd77';
+</script>
+
+<div class="header sans-serif" style="background-color: {color}">
 	<h1>Sklep z obrazami</h1>
 	<a href="/">Index</a>
 </div>
 
 <style>
 	.header {
-		background-color: #77dd77;
 		color: white;
 		/* padding: 10px 60px; */
 		padding: 0;
-		font-size: 1.5em;
+		/* font-size: 1.5em; */
 		display: flex;
 	}
 	.header h1 {
@@ -19,7 +22,7 @@
 	.header a {
 		/* display: inline-block; */
 		font-size: 1.2em;
-		background-color: #345d34;
+		background-color: #00000090;
 		color: white;
 		text-decoration: none;
 		display: flex;
@@ -31,6 +34,7 @@
 
 	a:hover {
 		background-color: #488348;
+		background-color: #00000066;
 		text-decoration: overline;
 	}
 </style>
