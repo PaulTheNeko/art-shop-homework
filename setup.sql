@@ -20,19 +20,19 @@ create table canvases (
 -- Brands of paint
 create table brands (
   id int not null auto_increment,
-  `name` varchar(100) not null auto_increment,
+  `name` varchar(100) not null,
   PRIMARY KEY (id)
 );
 
 create table artists (
   id int not null auto_increment,
-  pseudonym varchar(100) not null auto_increment,
-  `desc` text not null auto_increment,
+  pseudonym varchar(100) not null,
+  `desc` text not null,
   PRIMARY KEY (id)
 );
 
 -- Account for putting up sales
-create table vendor (
+create table vendors (
   id int not null auto_increment,
   `login` varchar(20) not null,
   email varchar(255) not null,
@@ -44,19 +44,22 @@ create table vendor (
 create table paintings (
   id int not null auto_increment,
   -- cena 
-  title varchar not null,
+  title varchar(100) not null,
   `desc` text not null,
-  paint_type int FOREIGN KEY REFERENCES paint_types(id),
-  paint_brand int FOREIGN KEY REFERENCES brands(id),
-  artist int FOREIGN KEY REFERENCES artist(id),
-  vendor int -- don't show to buyers
-    NOT NULL -- _SOMEONE_ has to put the paintings on sale
-    FOREIGN KEY REFERENCES vendor(id),
-  
+  paint_type int,
+  paint_brand int,
+  artist int,
+  vendor -- don't show to buyers
+    int NOT NULL, -- _SOMEONE_ has to put the paintings on sale
   height int,
   width int,
   depth int,
-  PRIMARY KEY (id)
+  PRIMARY KEY (id),
+  foreign key (paint_type) references paint_types(id),
+  foreign key (paint_brand) references brands(id),
+  foreign key (artist) references artists(id),
+  foreign key (vendor) references vendors(id)
+  -- FOREIGN KEY REFERENCES paint_types(id)
 );
 
 create table purchases (
