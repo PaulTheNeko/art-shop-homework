@@ -84,7 +84,7 @@ create table painting_tags (
   PRIMARY KEY (painting, tag),
   FOREIGN KEY (painting) references paintings(id),
   FOREIGN KEY (tag) references tags(id)
-)
+);
 
 insert into tags(name) values ('portret');
 insert into tags(name) values ('krajobraz');
