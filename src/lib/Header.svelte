@@ -3,8 +3,9 @@
 </script>
 
 <div class="header sans-serif" style="background-color: {color}">
-	<h1>Sklep z obrazami</h1>
-	<a href="/">Index</a>
+	<h1>Galeria obrazów</h1>
+	<a href="/">Obrazy</a>
+	<a href="/panel/add">Nowy</a>
 </div>
 
 <style>
