@@ -11,4 +11,4 @@ In particular, it seems to compile your JS to surgically (and _efficiently_) mod
 
 While I didn't research other frameworks, I want to mention that React would have been my second choice.I've heard of it being functional, which is a paradigm I really respect.
 
-I am also using Sveltekit, as that seems to be the recommended way (or at least a good way) to make a Svelte project. For now I've decided not to use a seperate backend, so this server as that in addition to the frontend.
+I am also using Sveltekit, as that seems to be the recommended way (or at least a good way) to make a Svelte project.
