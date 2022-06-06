@@ -12,3 +12,12 @@ In particular, it seems to compile your JS to surgically (and _efficiently_) mod
 While I didn't research other frameworks, I want to mention that React would have been my second choice.I've heard of it being functional, which is a paradigm I really respect.
 
 I am also using Sveltekit, as that seems to be the recommended way (or at least a good way) to make a Svelte project.
+
+Being late with my assignment I had to scrap pretty much all of the planned features, leaving behind only a simplistic gallery.
+
+## Setup
+
+1. Install and start the MySQL database.
+2. Run/import `setup.sql`
+3. Run `npm install`
+4. Run `npm run dev`
