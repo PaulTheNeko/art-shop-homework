@@ -18,7 +18,7 @@ export const post: RequestHandler = async (ev) => {
 	const ext = file.name.split('.').pop();
 	const filename = `${hash}.${ext}`;
 
-	fs.mkdir('/static/uploads', console.log);
+	fs.mkdir('static/uploads/', console.log);
 	fs.writeFile(`static/uploads/${filename}`, buf, console.log);
 
 	await db.query(
