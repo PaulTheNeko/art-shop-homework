@@ -20,4 +20,4 @@ Being late with my assignment I had to scrap pretty much all of the planned feat
 1. Install and start the MySQL database.
 2. Run/import `setup.sql`
 3. Run `npm install`
-4. Run `npm run dev`
+4. Run `npm run dev` to start the server
