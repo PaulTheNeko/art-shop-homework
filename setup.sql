@@ -1,4 +1,3 @@
-drop database `art-shop`;
 create database `art-shop`;
 
 use `art-shop`;
