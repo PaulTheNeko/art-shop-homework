@@ -20,4 +20,7 @@
 		padding: 20px;
 		border: 2px solid black;
 	}
+	p {
+		white-space: pre-line;
+	}
 </style>

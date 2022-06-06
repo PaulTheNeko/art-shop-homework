@@ -21,11 +21,5 @@
 <AppHeader />
 
 <main>
-	<h1>Witaj na stronie</h1>
 	<AllPaintings />
-	<!-- {#each paintings as painting}
-		<ShopPrev title={painting.title} src={`/uploads/${painting.image}`} />
-	{/each} -->
-	<!-- <Category name="portret" />
-	<Category name="krajobraz" /> -->
 </main>
